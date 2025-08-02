@@ -1,12 +1,12 @@
-# Veridic
+# Tracable
 
-> Truthful compliance automation - straight from your infrastructure.
+> Compliance Automation, Straight from your Infrastructure.
 
-Veridic is a CLI-first compliance tool for engineers and startups. It pulls real-time configuration data from your cloud environments and maps it to controls from frameworks like SOC2 and ISO27001. No more screenshots, spreadsheets, or stale policies - just evidence you can trust.
+Tracable automates compliance. It pulls real-time configuration data from your cloud environments and maps it to controls from frameworks like SOC2 & ISO27001. No more screenshots, spreadsheets, or stale policies - just evidence you can trust.
 
 ---
 
-## 🔥 Why Veridic?
+## 🔥 Why Tracable?
 
 - ✅ Designed for DevOps, not compliance managers
 - 🛠 Framework-as-code - define what you need, verify in CI
@@ -18,19 +18,19 @@ Veridic is a CLI-first compliance tool for engineers and startups. It pulls real
 ## ⚙️ Install
 
 ```bash
-curl -sSL https://veridic.io/install.sh | bash
+curl -sSL https://tracable.github.io/install.sh | bash
 ```
 ---
 
 ## 🚀 Quickstart
 
 ```bash
-veridic init --framework soc2 --cloud aws
-veridic check
-veridic report --summary
-veridic export --format pdf
+tracable init --framework soc2 --cloud aws
+tracable check
+tracable report --summary
+tracable export --format pdf
 ```
-Or define everything in `veridic.yaml`:
+Or define everything in `tracable.yaml`:
 
 ```yaml
 framework: soc2
@@ -60,7 +60,7 @@ controls:
 
 ### 📤 Outputs
 
-  - `veridic-report.md` - human-readable control report
+  - `tracable-report.md` - human-readable control report
 
   - `evidence.json` - structured data for export or ingestion
 

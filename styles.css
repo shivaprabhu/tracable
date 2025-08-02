@@ -1,0 +1,47 @@
+*{
+  font-family: 'Arial', sans-serif;
+}
+h1{
+  font-size: 100px;
+}
+body {
+  background: url('/assets/images/hero.jpg')  no-repeat center center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-size: cover;
+}
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-color: rgb(192, 192, 192)!important;
+}
+.brand{
+  font-size: 28px;
+}
+.hero{
+    margin: 120px 0;
+    width: 100%;
+}
+.hero p{
+  padding-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
